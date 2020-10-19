@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="2px">
+        <tr>
+            <th>name</th>
+            <th>city</th>
+            <th>Actions</th>
+        </tr>
+            <% user.forEach(function(user){%>
+                <tr>
+                    <th><%- user.name %></th>
+                    <th><%- user.city %></th>
+                    <th><a href="/edit/<%- user.id %>">Edit</a><a href="/delete/<%- user.id %>">Delete</a></th>
+                </tr>
+            <% })%>
+    </table>
+
+    <h3>Add Data</h3>
+    <form action="add" method="POST">
+        <input type="text" name="name" placeholder="Enter name"/><br/>
+        <input type="text" name="city" placeholder="Enter Your City"/><br/>
+        <input type="submit"/>
+    </form>
+</body>
+</html>
