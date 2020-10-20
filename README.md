@@ -1,5 +1,5 @@
 # Nodejs-crud-operations
-nodejs-crud-operations simplfy the crud(create,retrive,update,delete) operations on database throw Nodejs and express.
+nodejs-crud-operations are performing the crud(create,retrive,update,delete) operations on database throw Nodejs and express.
 
 step 1:download the code
 https://github.com/hirenbhut2820/Nodejs-crud-operations
