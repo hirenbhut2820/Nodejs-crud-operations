@@ -1,6 +1,10 @@
 # Nodejs-crud-operations
 
-step 1:git colne
+step 1:download the code
+
+step 2:create database "mydb" on mysql database
+
+step 3:upload the 
 
 step 2:npm install
 
